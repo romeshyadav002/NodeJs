@@ -19,3 +19,5 @@ console.log(this)
 // to overcome this naming and referencing to global object which is different in browsers and nodejs,
 // community give a different key word that works everywhere that is :- globalThis
 console.log(globalThis)
+
+console.log(globalThis === global)
