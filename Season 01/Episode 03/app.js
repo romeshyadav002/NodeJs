@@ -7,7 +7,7 @@ console.log(name)
 console.log(a+b)
 
 
-// global object in node js
+// global object in node js , It is not a part of V8 Engine
 console.log(global)
 
 // window is defined in browsers not in node js
