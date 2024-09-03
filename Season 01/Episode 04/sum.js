@@ -4,15 +4,15 @@ console.log("sum module executed")
 
 var x = 5
 
-// this way we used in mjs module
-export function calculateSum(a, b) {
-    const sum = a+b
-    console.log(sum)
-}
-
-// this way we used in commonJs module
-// function calculateSum(a, b) {
+// // this way we used in mjs module
+// export function calculateSum(a, b) {
 //     const sum = a+b
 //     console.log(sum)
 // }
-// module.exports  = {calculateSum, x}
+
+// this way we used in commonJs module
+function calculateSum(a, b) {
+    const sum = a+b
+    console.log(sum)
+}
+module.exports  = {calculateSum, x}
